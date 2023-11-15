@@ -1,0 +1,500 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+section {
+    width: 100%;
+    height: 70vh;
+}
+
+section header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 6px 25px black;
+}
+
+
+section header .logo{
+    font-size: 45px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+section header .logo span{
+    color:rgb(52, 159, 201);
+}
+
+section header ul li {
+    display: inline-block;
+    margin: 5px 5px;
+    padding: 5px 20px;
+}
+
+section header ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+section header ul li a:hover {
+    color: rgb(52, 159, 201);
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(52, 159, 201);
+    clip-path: circle(300px at left 100px);
+    z-index: -1;
+}
+
+section .background_image img {
+    width: 280px;
+    position: absolute;
+    top: 11.5%;
+    left: 75%;
+    margin-left: 50px;
+}
+
+section .image img {
+    width: 150px;
+    position: absolute;
+    top: 30%;
+    left: 85%;
+}
+
+section .lap img {
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+
+section .IT img {
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    border-radius: 50%;
+}
+
+h1{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    font-size: 50px;
+    color: #6a6666;
+    text-align: justify;
+}
+
+h2{
+    position: absolute;
+    top: 37%;
+    left: 35%;
+    font-size: 50px;
+    color: #6a6666;
+    text-align: justify;
+}
+
+h3 {
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    line-height: 26px;
+    margin: 0;
+    padding: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0px;
+}
+
+h4 {
+    font-size: xx-large;
+    width: 550px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    line-height: 26px;
+}
+section .btn1 {
+    position: relative;
+    top: 100%;
+    left: 50%; 
+    transform: translateX(-70%); 
+    width: 300px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin-top: 20px; 
+}
+
+section .btn1 .read {
+    background: rgb(52, 159, 201);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 15px 30px; 
+    border: none;
+    border-radius: 5px;
+}
+
+section .btn1 .read a{
+    text-decoration: none;
+    color: white;
+}
+
+form {
+    width: 100%;
+    max-width: 500px; 
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.signup-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 40%;
+}
+section .btn1 .read:hover {
+    background: rgb(30, 109, 143);
+}
+.about{
+    width: 100%;
+    height: 80vh;
+    padding: 0px;
+}
+
+.about .box{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about .box .card {
+    width: 373px;
+    height: auto;
+    padding: 5px 10px;
+    margin: 0 15px;
+    background: rgb(235, 235, 235);
+    border: 1px solid rgb(235, 235, 235);
+    cursor: pointer;
+    z-index: 1;
+    transition: 0.3s;
+}
+
+.about .box .card:hover{
+    box-shadow: 10px 5px 20 px black;
+    transform: scale(1.1);
+    border-radius: 5px;
+}
+
+.about .box .card img{
+    width: 350px;
+}
+
+.about h5 {
+    margin-left: 36px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #000000; 
+}
+
+.about h6 {
+    margin-left: 100px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #000000; 
+}
+
+.about a{
+    text-decoration: none;
+    color: black
+}
+
+.photo1{
+    width: 100%;
+    height: 80vh;
+    padding: 0px;
+}
+
+.photo1 .a1{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo1 .a1 .p11 {
+    width: 373px;
+    height: auto;
+    padding: 5px 10px;
+    margin: 0 15px;
+    background: rgb(235, 235, 235);
+    border: 1px solid rgb(235, 235, 235);
+    cursor: pointer;
+    z-index: 1;
+    transition: 0.3s;
+    
+}
+
+.photo1 .a1 .p11:hover{
+    box-shadow: 10px 5px 20 px black;
+    transform: scale(1.1);
+    border-radius: 5px;
+
+}
+
+.photo1 .a1 .p11 img{
+    width: 350px;
+}
+
+.photo1 h5 {
+    margin-left: 130px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #000000; 
+}
+
+.photo1 h6 {
+    margin-left: 120px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #000000; 
+}
+
+.photo1 h7 {
+    text-decoration: none;
+    margin-left: 130px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #000000; 
+}
+
+.addToCartBtn {
+    text-decoration: none;
+    background: rgb(52, 159, 201);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: 10px auto;
+}
+
+.photo1 .a1 .p11 a {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+.addToCartBtn:hover {
+    background: rgb(30, 109, 143);
+}
+
+
+.likes-comments {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.photo2 img {
+    width: 150px;
+    top: 70%;
+    position: relative;
+    left: 30px;
+}
+
+.photo3 img {
+    width: 150px;
+    top: 70%;
+    position: relative;
+    left: 100px;
+}
+
+.photo4 img {
+    width: 150px;
+    top: 70%;
+    position: relative;
+    left: 300px; 
+}
+
+.photo5 img {
+    width: 150px;
+    top: 70%;
+    position: relative;
+    left: 470px; 
+}
+
+.photo-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 180px;
+}
+
+.photo-container img {
+    width: 250px;
+    top: 130%;
+    
+}
+
+.photo-container .photo5 img {
+    margin-bottom: 650px; 
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 290px;
+    top: 40%;
+    margin-top: 25%;
+    
+}
+
+.comment-button button {
+    padding: 10px 5px;
+}
+
+.like-button, .comment-button {
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+    width: 40%;
+    margin-bottom: 50px;
+}
+
+.heart-icon {
+    height: 80px;
+    margin-right: 5px;
+    
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px; 
+}
+
+.comment-box {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.comment-box label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.comment-box textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    resize: none; 
+}
+
+.comment-box button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%;
+}
+
+.comment-box button:hover {
+    background-color: #2a80b9;
+}
+
+.contact img {
+    width: 180px;
+
+}
+
+.purchase-container {
+    max-width: 400px;
+    width: 100%;
+    margin: 20px auto;
+    text-align: left;
+}
+
+table {
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+    text-align: left;
+}
+
+label {
+    font-size: 14px; 
+}
+
+.quantity-container {
+    display: flex;
+}
+
+.quantity-btn {
+    padding: 10px 10px;
+    cursor: pointer;
+    margin-right: 2px;
+    
+}
+
+#quantity {
+    width: 50px; 
+    text-align: center; 
+    margin: 0px 5px; 
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+

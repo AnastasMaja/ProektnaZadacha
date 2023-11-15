@@ -1,0 +1,72 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Ecommerce Website</title>
+        <link rel="stylesheet" type="text/css" href="task2.css">
+    </head>
+    <body>
+        <h1>MAKE YOUR PURCHASE</h1>
+        <h4><div class="purchase-container"></div>
+                
+            <table>
+                <tr>
+                    <td><label for="name">Name and surname:</label></td>
+                    <td><input type="name" id="name" name="name"></td>
+                </tr>
+                <tr>
+                    <td><label for="username">Username:</label></td>
+                    <td><input type="username" id="username" name="username"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="password" id="password" name="password"></td>
+                </tr>
+                <tr>
+                    <td><label for="payment">Payment Information:</label></td>
+                    <td><input type="payment" id="payment" name="payment"></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Address/City:</label></td>
+                    <td><input type="address" id="address" name="address"></td>
+                </tr>
+                <tr>
+                    <td><label for="quantity">Quantity:</label></td>
+                    <td>
+                        <div class="quantity-container">
+                            <input type="text" id="quantity" name="quantity" value="1" readonly>
+                            <button type="button" class="quantity-btn" onclick="incrementQuantity()">+</button>
+                            <button type="button" class="quantity-btn" onclick="decrementQuantity()">-</button>  
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button type="submit">BUY</button></td>
+                </tr>
+            </table>
+        </div></h4>
+        
+        <h3>
+        </h3>
+        <section>
+            <header>
+                <div class="circle"></div>
+                <div class="circles"></div>
+                <a href="#" class="logo">Tech<span>Trend</span></a>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href ="blog.html">Our Blog</a></li>
+                </ul>
+                
+            </header>
+
+            <div class="IT">
+                <img src = "IT.png">
+            </div>
+        </section>
+        <script src="task3.js"></script>
+    </body>
+</html>
